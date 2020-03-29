@@ -19,17 +19,23 @@ public class Ejerciciosjava {
     public static void main(String[] args) {
         
         // TODO code application logic here
-           Scanner sc= new Scanner(System.in);
-        System.out.println("introduce su numero");
-        int num= sc.nextInt();
-        int i;
+        
+        int resu=0;
+        int cont=-1;
+        int num;
+        Scanner sc= new Scanner(System.in);
         do {
-            for ( i = num; i > 1; i--) {
-                num=num*(i-1);
-            }
-             System.out.println(num);
-        } while (i!=1);
-          
+            System.out.println("intoduce los numeros que quieras");
+            num=sc.nextInt();
+
+        resu=resu+num;
+            cont++;
+            
+        } while (num!=0);
+        System.out.println("la suma es " + resu + "y la media es " + resu/cont);
+        
+       
+        }
     }
     
-}
+
