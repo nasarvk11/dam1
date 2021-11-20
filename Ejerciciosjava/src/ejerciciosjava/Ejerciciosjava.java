@@ -6,6 +6,7 @@
 package ejerciciosjava;
 
 import java.util.Scanner;
+ERROR
 
 /**
  *
